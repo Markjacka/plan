@@ -1,0 +1,9 @@
+let tasks = [
+    { description: "Complete Math homework", priority: "High" },
+    { description: "Buy groceries", priority: "Medium" },
+    { description: "Call Mom", priority: "Low" }
+];
+
+for (let i = 0; i < tasks.length; i++) {
+    console.log("Task:", tasks[i].description, "| Priority:", tasks[i].priority);
+}
